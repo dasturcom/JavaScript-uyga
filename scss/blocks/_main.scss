@@ -1,0 +1,76 @@
+.form {
+    width: 500px;
+    height: 125px;
+    margin: 80px 0;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgb(255, 228, 141);
+}
+.form-label {
+    font-size: 25px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-contrlo {
+    padding: 8px;
+    border: 1px solid rgb(72, 212, 255);
+    border-radius: 7px;    
+    background: linear-gradient(90deg, #00dbde, #fc00ff);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-select {
+    padding: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fc00ff;
+    border: 1px solid rgb(72, 212, 255);
+    border-radius: 7px;
+    transition: all 0.5s linear;
+}
+
+.form-select:hover {
+    padding: 8px;
+    border: 1px solid rgb(72, 212, 255);
+    background: linear-gradient(90deg, #00dbde, #fc00ff);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 7px;
+}
+.btn {
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    line-height: 20px;
+    background: linear-gradient(90deg, #00dbde, #fc00ff); 
+    color: #fff;
+    transition: all 0.5s linear;
+}
+
+.btn:hover {
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    line-height: 20px;
+    border: 1px solid #fc00ff;
+    background: linear-gradient(90deg, #00dbde, #fc00ff); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.message {
+    @include reset-list;  
+    background: linear-gradient(90deg, #00dbde, #fc00ff);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-box {
+    width: 500px;
+    height: 80px;
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 15px rgb(255, 228, 141);
+}
